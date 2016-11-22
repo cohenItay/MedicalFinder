@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_text3"
+        android:textColor="@android:color/holo_red_light"
+        android:text="no location found." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Show clinics to maximum:"
+        android:id="@+id/settings_text1"
+        android:layout_below="@+id/settings_text3"/>
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_switch"
+        android:layout_alignBaseline="@+id/settings_text1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_text1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/setting_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="35km"
+            android:id="@+id/settings_textKm"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_textKm"
+            android:layout_marginStart="15dp"
+            android:id="@+id/settings_SeekBar"
+            android:max="70"
+            android:progress="35"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="10dp"
+        android:background="#9bbb"
+        android:layout_below="@id/setting_layout"
+        android:layout_marginTop="5dp"/>
+
+
+
+</RelativeLayout>

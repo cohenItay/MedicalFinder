@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@android:mipmap/sym_def_app_icon"
+        android:id="@+id/listView_image"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="220dp"
+        android:id="@+id/nameNaddress"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/listView_image">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:text="Kfar saba Clinic"
+            android:id="@+id/listView_clinic_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listView_clinic_name"
+            android:layout_alignStart="@+id/listView_clinic_name"
+            android:layout_marginTop="3dp"
+            android:text="weizman 161, kfar saba"
+            android:inputType="textShortMessage"
+            android:id="@+id/listView_clinic_address"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:lines="2"
+        android:layout_centerVertical="true"
+        android:id="@+id/listView_clinic_distance"/>
+
+</RelativeLayout>

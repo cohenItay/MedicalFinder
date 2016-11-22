@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_medical_clinics_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itayc14.medicalfinder.MedicalClinicsMain">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:id="@+id/toolbar">
+
+                <SearchView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/searchView"
+                    android:queryHint="Search Clinics..."
+                    />
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="#5111"
+            android:gravity="center"
+            android:id="@+id/main_progressBarLayout">
+
+                <ProgressBar
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="no signal. waiting for location"
+                    android:layout_marginStart="10dp"/>
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/main_progressBarLayout"
+            android:id="@+id/main_fragment" />
+
+</RelativeLayout>

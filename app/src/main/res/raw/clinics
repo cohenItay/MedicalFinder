@@ -1,0 +1,93 @@
+{
+  "Clinics": [
+    {
+      "name": "Petach Tikva Medical",
+      "address": "Rotchild 64, Petach Tikva",
+      "tel": "00-0000000",
+      "lat": 32.088512,
+      "lng": 34.881061,
+      "free text": "make peoples healthier",
+      "img": "https://www.greshamsmith.com/GreshamSmith/media/Showcase-Projects/Showcase%204/Bay%20Medical%20Center%20Patient%20Tower/5117ap05-copy.jpg?width=980&height=606&ext=.jpg"
+    },
+
+    {
+      "name": "Ra'anana Medical",
+      "address": "Hertzel 39, Ra'anana",
+      "tel": "00-0000000",
+      "lat": 32.178444,
+      "lng": 34.868060,
+      "free text": "make peoples healthier",
+      "img": "http://media.israelhayom.co.il/2012/10/17/135042685847323303a_b.jpg"
+    },
+
+    {
+      "name": "Hod Hasharon Medical",
+      "address": "Yahalom st. , Hod-Hasharon",
+      "tel": "00-0000000",
+      "lat": 32.145580,
+      "lng": 34.889986,
+      "free text": "make peoples healthier",
+      "img": "http://es-p.co.il/_Uploads/dbsArticles/_cut/f0_0434_0279_DSC05358(1).JPG"
+    },
+
+    {
+      "name": "Netanya Medical",
+      "address": "Zalman Shanior 31, Netanya",
+      "tel": "00-0000000",
+      "lat": 32.284167,
+      "lng": 34.849935,
+      "free text": "make peoples healthier",
+      "img" : "http://jfkmc.com/util/images/building/jfk-facility-350x350.jpg"
+    },
+
+    {
+      "name": "Karney Shomron Medical",
+      "address": "Habrosh 6, Karney Shomron",
+      "tel": "00-0000000",
+      "lat": 32.169672,
+      "lng": 35.087276,
+      "free text": "make peoples healthier",
+      "img" : "http://pelleg-arch.com/wp-content/uploads/2014/04/36.jpg"
+    },
+
+    {
+      "name": "Tel Aviv Medical",
+      "address": "rabina 11, Tel-aviv",
+      "tel": "00-0000000",
+      "lat": 32.121295,
+      "lng": 34.798658,
+      "free text": "make peoples healthier",
+      "img" : "http://www.nrg.co.il/images/archive/465x349/1/281/614.jpg"
+    },
+
+    {
+      "name": "Hertzeliya Medical",
+      "address": "Hamelech yehoshafet 11, Hertzeliya",
+      "tel": "00-0000000",
+      "lat": 32.171645,
+      "lng": 34.808817,
+      "free text": "make peoples healthier",
+      "img" : "http://www.news1.co.il/uploadimages/NEWS1Y-411525905132294.jpg"
+    },
+
+    {
+      "name": "Kfar Saba Medical",
+      "address": "Weizman 186, Kfar-Saba",
+      "tel": "00-0000000",
+      "lat": 32.173063,
+      "lng": 34.918435,
+      "free text": "make peoples healthier",
+      "img" : "http://upload.wikimedia.org/wikipedia/commons/1/14/PikiWiki_Israel_14197_The_Clalit_Health_Services_Center_in_Tel_Aviv.JPG"
+    },
+
+    {
+      "name": "Eilat Medical",
+      "address": "Argemna st. , Eilat",
+      "tel": "00-0000000",
+      "lat": 29.548945,
+      "lng": 34.946415,
+      "free text": "make peoples healthier",
+      "img" : "http://images.globes.co.il/images/NewGlobes/big_image_800/2015/meuhedet1-575.jpg"
+    }
+  ]
+}

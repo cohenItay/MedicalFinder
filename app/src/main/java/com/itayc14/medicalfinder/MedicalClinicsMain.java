@@ -42,7 +42,7 @@ public class MedicalClinicsMain extends AppCompatActivity implements OnClinicCli
     private final static int LOCATION_PERMISSION_CODE = 24;
     private DistanceViewUpdater dvu;
     private boolean isLandscape;
-    //hi there
+    //hi there i made change from android studio
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
